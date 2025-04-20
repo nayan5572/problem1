@@ -6,7 +6,7 @@ const books = [
   { title: "Neuromancer", author: "William Gibson", year: 1984 },
   {
     title: "The Left Hand of Darkness",
-    author: "Ursula K. Le Guin",
+    author: "Ursula K.Le Guin",
     year: 1969,
   },
   {
@@ -21,9 +21,11 @@ const books = [
   },
 ];
 
+// get all books title
 const getBooksTitle = (books) => {
   return books.map((book) => book.title);
 };
 
+// get all books title
 const titles = getBooksTitle(books);
 console.log(titles);
